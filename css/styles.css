@@ -137,6 +137,22 @@ a.white {
 	color: #fff;
 }
 
+.basic-1 .title-kromatika {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.basic-1 .subtitle-kromatika {
+	font-weight: 200;
+	padding-top: 0;
+	color:white;
+}
+
+.basic-1 .para-width {
+	width: 70%;
+}
+
+
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
@@ -1382,8 +1398,8 @@ input[type='checkbox'] {
 /*     14. About     */
 /*********************/
 .basic-4 {
-	padding-top: 7rem;
-	padding-bottom: 4rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
 	text-align: center;
 }
 
