@@ -2351,6 +2351,12 @@ a:hover.back-to-top {
 
   }
 
+  	  .blobs {
+    position: absolute;
+    filter: blur(var(--blob-blur));
+
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -2360,6 +2366,12 @@ a:hover.back-to-top {
     padding-top: 10rem;
     padding-bottom: 3rem;
 	}
+
+	  .blobs {
+    position: absolute;
+    filter: blur(var(--blob-blur));
+
+  }
 
 	  html {
     color-scheme: dark light;
