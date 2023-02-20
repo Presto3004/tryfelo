@@ -2340,6 +2340,17 @@ a:hover.back-to-top {
     padding-bottom: 3rem;
 	}
 
+	  html {
+    color-scheme: dark light;
+	block-size: 100%;
+  }
+
+  body {
+    place-content: center;
+    min-block-size: 100%;
+
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -2349,6 +2360,17 @@ a:hover.back-to-top {
     padding-top: 10rem;
     padding-bottom: 3rem;
 	}
+
+	  html {
+    color-scheme: dark light;
+	block-size: 100%;
+  }
+
+  body {
+    place-content: center;
+    min-block-size: 100%;
+
+  }
 
 }
 
