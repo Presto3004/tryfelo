@@ -2342,7 +2342,7 @@ a:hover.back-to-top {
 
 	  html {
     color-scheme: dark light;
-	block-size: 100%;
+	block-size: 300%;
   }
 
   body {
@@ -2351,10 +2351,11 @@ a:hover.back-to-top {
 
   }
 
-  	  .blobs {
-    position: absolute;
+ .blobs {
+    position: sticky;
     filter: blur(var(--blob-blur));
-
+    left:50%;
+    top:50%;
   }
 
 }
@@ -2363,14 +2364,15 @@ a:hover.back-to-top {
 
 
 	.basic-1 {
-    padding-top: 10rem;
+    padding-top: 0rem;
     padding-bottom: 3rem;
 	}
 
-	  .blobs {
-    position: absolute;
+ .blobs {
+    position: sticky;
     filter: blur(var(--blob-blur));
-
+    left:50%;
+    top:40%;
   }
 
 	  html {
@@ -2380,7 +2382,7 @@ a:hover.back-to-top {
 
   body {
     place-content: center;
-    min-block-size: 100%;
+    min-block-size: 300%;
 
   }
 
