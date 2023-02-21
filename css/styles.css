@@ -2340,23 +2340,7 @@ a:hover.back-to-top {
     padding-bottom: 3rem;
 	}
 
-	  html {
-    color-scheme: dark light;
-	block-size: 300%;
-  }
 
-  body {
-    place-content: center;
-    min-block-size: 100%;
-
-  }
-
- .blobs {
-    position: sticky;
-    filter: blur(var(--blob-blur));
-    left:50%;
-    top:50%;
-  }
 
 }
 
@@ -2368,23 +2352,7 @@ a:hover.back-to-top {
     padding-bottom: 3rem;
 	}
 
- .blobs {
-    position: sticky;
-    filter: blur(var(--blob-blur));
-    left:50%;
-    top:40%;
-  }
-
-	  html {
-    color-scheme: dark light;
-	block-size: 100%;
-  }
-
-  body {
-    place-content: center;
-    min-block-size: 300%;
-
-  }
+ 
 
 }
 
